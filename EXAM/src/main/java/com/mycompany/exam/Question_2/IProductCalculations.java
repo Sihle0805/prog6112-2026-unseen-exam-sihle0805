@@ -9,7 +9,8 @@ package com.mycompany.exam.Question_2;
  * @author pepea
  */
 public interface IProductCalculations {
-   
+    
+   // Contract for the sale calculations: VAT, commission and total
     double GetVat();
     double GetCommission();
     double GetTotal();

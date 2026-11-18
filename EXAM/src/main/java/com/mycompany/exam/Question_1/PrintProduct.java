@@ -10,6 +10,7 @@ package com.mycompany.exam.Question_1;
  */
 public class PrintProduct {
     
+    // %.0f formats the average to 0 decimal places to match the sample output
     private final Product product;
 
     public PrintProduct(Product product) {

@@ -15,6 +15,8 @@ public class SalesReport {
         Scanner input = new Scanner(System.in);
 
         String[] names = {"Cozy Nights Monarch", "Restonic Barbados", "Sealy Phuket"};
+        
+        // 3 products x 3 months; all values default to 0 until the user enters them
         int[][] sales = new int[3][3];
 
         for (int p = 0; p < names.length; p++) {

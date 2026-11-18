@@ -16,16 +16,19 @@ public class ProductCalculations implements IProductCalculations {
     }
 
     @Override
+    // VAT = 15% of the product price
     public double GetVat() {
         return price * 0.15;
     }
 
     @Override
+    // Commission = 5% of the product price
     public double GetCommission() {
         return price * 0.05;
     }
 
     @Override
+    // Total = price + VAT + commission (reuses the other methods so the percentages are only defined once)
     public double GetTotal() {
         return price + GetVat() + GetCommission();
     }
